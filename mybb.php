@@ -50,6 +50,7 @@ function mybb_output($vars) {
   $version = $vars['version'];
   
   //mybb settings
+  $mybb_configuration = 
   
 }
 
@@ -79,6 +80,14 @@ function mybb_sidebar($vars) {
   //return the sidebar
   return $sidebar;
   
+}
+
+
+function mybb_clientarea($vars) {
+  
+  //module link
+  $modulelink = $vars['modulelink'];
+
 }
 
 ?>
